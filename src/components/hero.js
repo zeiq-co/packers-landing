@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import Button from "../components/button"
 import headerImage from "../images/header.png"
 import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
+// import mockupFrame from "../images/mockup-frame.png"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -27,10 +27,10 @@ const Header = ({ siteTitle }) => (
       }}
     />
     <h1 style={{ textAlign: "center", color: "rgb(51, 183, 96)" }}>PACKRS</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
+    <p style={{ textAlign: "center", maxWidth: 440, fontSize: "1.5rem" }}>
       Deliver Anything , Anywhere
     </p>
-    <Button>View Website</Button>
+    <Button>Download Our App</Button>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />
@@ -42,10 +42,10 @@ const Header = ({ siteTitle }) => (
           top: 0,
         }}
       >
-        <img
+        {/* <img
           src={mockupFrame}
           alt="outlines of shapes and confetti in the background "
-        />
+        /> */}
       </div>
     </div>
   </div>

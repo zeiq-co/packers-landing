@@ -22,8 +22,8 @@ const Footer = ({ siteTitle }) => (
     >
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
         <a
-          style={{ textDecoration: "none" }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
+          style={{ textDecoration: "none", color: "rgb(51, 183, 96)" }}
+          href="https://packrs.freshdesk.com/support/tickets/new"
         >
           Contact Us
         </a>

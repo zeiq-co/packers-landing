@@ -1,6 +1,6 @@
 import React from "react"
 
-import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
+import { COLORS, BORDER_RADIUS } from "../styles/constants"
 import "../styles/button.css"
 
 const Button = ({ children }) => (
@@ -9,7 +9,7 @@ const Button = ({ children }) => (
       padding: ".5rem 2.5rem",
       color: COLORS.lightWhite,
       fontWeight: 700,
-      background: GRADIENT,
+      backgroundColor: "#33b760",
       borderRadius: BORDER_RADIUS,
       borderWidth: 0,
       cursor: "pointer",

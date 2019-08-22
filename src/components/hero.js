@@ -33,11 +33,20 @@ const Header = ({ siteTitle }) => (
     <a href="https://www.packrs.co/">
       <Button>Download Our App</Button>
     </a>
-    <div style={{ margin: 60, width: `850px`, position: "relative" }}>
-      <img
-        src={PackrsFrame}
-        alt="outlines of shapes and confetti in the background "
-      />
+    <div style={{ margin: 60, position: "relative" }}>
+      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
+        <div
+          style={{
+            width: "850px",
+            top: 0,
+          }}
+        >
+          <img
+            src={PackrsFrame}
+            alt="outlines of shapes and confetti in the background "
+          />
+        </div>
+      </div>
     </div>
   </div>
 )

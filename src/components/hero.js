@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 
 import Button from "../components/button"
 import headerImage from "../images/header.png"
-import MockupContent from "./image"
-// import mockupFrame from "../images/mockup-frame.png"
+
+import PackrsFrame from "../images/packrs.png"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -30,23 +30,14 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440, fontSize: "1.5rem" }}>
       Deliver Anything , Anywhere
     </p>
-    <Button>Download Our App</Button>
-    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <MockupContent />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          width: "250px",
-          top: 0,
-        }}
-      >
-        {/* <img
-          src={mockupFrame}
-          alt="outlines of shapes and confetti in the background "
-        /> */}
-      </div>
+    <a href="https://www.packrs.co/">
+      <Button>Download Our App</Button>
+    </a>
+    <div style={{ margin: 60, width: `850px`, position: "relative" }}>
+      <img
+        src={PackrsFrame}
+        alt="outlines of shapes and confetti in the background "
+      />
     </div>
   </div>
 )

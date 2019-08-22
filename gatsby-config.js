@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Packrs`,
-    description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
+    description: `We are a product delivery platform trying to take all your transportation problems away`,
+    author: `Zeiq`,
     siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
   },
   plugins: [

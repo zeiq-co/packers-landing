@@ -1,7 +1,7 @@
 {
-  "name": "packrs-landing-page",
+  "name": "packrs",
   "private": true,
-  "description": "A simple starter to create a minimal landing page with Gatsby",
+  "description": "We are a product delivery platform trying to take all your transportation problems away.",
   "version": "0.1.0",
   "author": "sourav arya<souravarya4u@gmail.com>",
   "dependencies": {
@@ -9,7 +9,6 @@
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-react-helmet": "^3.0.10",
-
     "gatsby-plugin-sitemap": "^2.0.10",
     "gatsby-source-filesystem": "^2.0.27",
     "gatsby-transformer-sharp": "^2.1.17",

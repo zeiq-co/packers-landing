@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440, fontSize: "1.5rem" }}>
       Deliver Anything , Anywhere
     </p>
-    <a href="https://www.packrs.co/">
+    <a href="https://packrs.page.link/wMv3">
       <Button>Download Our App</Button>
     </a>
     <div style={{ margin: 20, position: "relative" }}>

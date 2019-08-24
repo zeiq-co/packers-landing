@@ -7,10 +7,10 @@ import CallToAction from "../components/cta"
 
 const IndexPage = () => (
   <Layout>
-    <Seo
-      title="Packers App"
-      description="Welcome to Packrs"
-      url={`${config.siteUrl}`}
+    <SEO
+      // title="Packers App"
+      // description="Welcome to Packrs"
+      // url={`${config.siteUrl}`}
     />
     <Hero />
     <CallToAction />

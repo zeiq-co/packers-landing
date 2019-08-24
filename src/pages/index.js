@@ -8,9 +8,8 @@ import CallToAction from "../components/cta"
 const IndexPage = () => (
   <Layout>
     <SEO
-      // title="Packers App"
-      // description="Welcome to Packrs"
-      // url={`${config.siteUrl}`}
+      title="Packers App"
+      description="Welcome to Packrs"
     />
     <Hero />
     <CallToAction />

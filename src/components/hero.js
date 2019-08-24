@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       display: "flex",
       alignItems: "center",
       flexDirection: "column",
-      padding: "4rem 1rem",
+      padding: "4rem 1rem 0rem",
     }}
   >
     <div
@@ -33,20 +33,15 @@ const Header = ({ siteTitle }) => (
     <a href="https://www.packrs.co/">
       <Button>Download Our App</Button>
     </a>
-    <div style={{ margin: 60, position: "relative" }}>
-      <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
-        <div
-          style={{
-            width: "850px",
-            top: 0,
-          }}
-        >
-          <img
-            src={PackrsFrame}
-            alt="outlines of shapes and confetti in the background "
-          />
-        </div>
-      </div>
+    <div style={{ margin: 20, position: "relative" }}>
+      <img
+        src={PackrsFrame}
+        alt="outlines of shapes and confetti in the background "
+        style={{
+          width: "850px",
+          top: 0,
+        }}
+      />
     </div>
   </div>
 )
